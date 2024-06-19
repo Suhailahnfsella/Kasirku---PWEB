@@ -1,0 +1,105 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    background-color: #64a3fc6d;
+  }
+
+  a {
+    color: #797d9e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #a5a8c4;
+    text-decoration: none;
+  }
+
+  .nav-tabs {
+    border-bottom: none;
+  }
+
+  .nav-tabs .nav-link {
+    color: #112D55;
+    font-weight: 800;
+    border: none;
+    border-bottom: none;
+  }
+  
+  .nav-tabs .nav-link.active {
+    border: none;
+    color : #112D55;
+    font-weight: 600;
+  }
+
+  .category-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 0, 0, 0.8); /* Red background with some opacity */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .status-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .labelantrian {
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: max-content;
+  }
+
+  .labelantrian2 {
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: max-content;
+    cursor: pointer;
+  }
+
+  .card-container {
+    position: relative;
+  }
+
+  .btn-small {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-quantity {
+    width: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 3px;
+    font-weight: bold;
+  }
+
+  .table th, .table td {
+    vertical-align: middle;
+  }

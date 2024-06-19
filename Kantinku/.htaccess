@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    # Enable rewriting
+    RewriteEngine On
+
+    # Set the base
+    RewriteBase /kantinku/
+
+    # Disable directory listing
+    Options -Indexes
+
+    # Conditions to skip files and directories
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Rewrite everything else to index.php
+    RewriteRule . index.php [L]
+</IfModule>
